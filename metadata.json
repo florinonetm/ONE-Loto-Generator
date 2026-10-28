@@ -1,0 +1,8 @@
+{
+  "name": "ONE Loto Generator",
+  "description": "Generator inteligent de numere loto cu statistică Lucky AI de la ONE Media Gateway pentru 6/49, Euromilion, UK 6/59, Joker și 5/40.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

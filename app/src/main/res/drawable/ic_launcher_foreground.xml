@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glowing cyan ring -->
+    <path
+        android:pathData="M54,26 C70.57,26 84,39.43 84,56 C84,72.57 70.57,86 54,86 C37.43,86 24,72.57 24,56 C24,39.43 37.43,26 54,26 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#00000000" />
+
+    <!-- Lottery Sphere with cyan gradient fill -->
+    <path android:pathData="M54,28 C69.46,28 82,40.54 82,56 C82,71.46 69.46,84 54,84 C38.54,84 26,71.46 26,56 C26,40.54 38.54,28 54,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="36"
+                android:endX="72"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#0284C7" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner sphere highlight circle -->
+    <path
+        android:pathData="M54,39 C63.39,39 71,46.61 71,56 C71,65.39 63.39,73 54,73 C44.61,73 37,65.39 37,56 C37,46.61 44.61,39 54,39 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="1.5"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Stylized Lucky 7 / Loto symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46.5,46.5 L61.5,46.5 L61.5,49.5 L53.5,65.5 L49.5,65.5 L56.5,50 L46.5,50 Z" />
+
+    <!-- Lucky Star accent 1 -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M37,34 L38.2,37.5 L41.8,37.5 L38.9,39.6 L40,43.1 L37,41 L34,43.1 L35.1,39.6 L32.2,37.5 L35.8,37.5 Z" />
+
+    <!-- Lucky Star accent 2 -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M71,34 L72.2,37.5 L75.8,37.5 L72.9,39.6 L74,43.1 L71,41 L68,43.1 L69.1,39.6 L66.2,37.5 L69.8,37.5 Z" />
+</vector>
